@@ -21,6 +21,9 @@ public class TP5Application {
     CommandLineRunner start(UserService userService)
     {
         return args -> {
+
+
+
             User user = new User();
             user.setUsername("user");
             user.setPassword("1234");
